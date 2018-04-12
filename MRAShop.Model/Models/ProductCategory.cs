@@ -34,6 +34,5 @@ namespace MRAShop.Model.Models
         public string MetaDescription { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
         public virtual IEnumerable<Product> Products { set; get; }
-        public virtual IEnumerable<OrderDetail> OrderDetail { set; get; }
     }
 }

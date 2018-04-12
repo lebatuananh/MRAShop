@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using MRAShop.Model.Models;
 using System.Data.Entity;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using MRAShop.Model.Models;
 
 namespace MRAShop.Data
 {
@@ -36,10 +31,8 @@ namespace MRAShop.Data
 
         public DbSet<VisitorStatistic> VisitorStatistics { set; get; }
 
-
         protected override void OnModelCreating(DbModelBuilder builder)
         {
-
         }
     }
 }
